@@ -18,9 +18,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF53E88B)),
         useMaterial3: true,
-        fontFamily: 'Viga',
       ),
-      home: const LoginScreen(),
+      home: const SignupScreen(),
     );
   }
 }
